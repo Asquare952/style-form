@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="https://use.fontawesome.com/548e1194c5.js"></script>
+    <title>Codeacademy signup</title>
+   <script src="https://use.fontawesome.com/548e1194c5.js"></script>
     <link
       rel="stylesheet"
       href="path/to/font-awesome/css/font-awesome.min.css"
@@ -13,47 +13,51 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <form>
-      <div id="all">
-        <div>
-          <h2>Take this course for free</h2>
-        </div>
-        <div>
+    <section class="wrapper">
+      <section class="container">
+        <h1 class="tittle">Take this course for free</h1>
+        <div class="inputs">
           <label for="email">Email</label>
-          <input type="text" placeholder="" required />
+          <input type="text" />
         </div>
-        <div class="pass-wrap">
-          <label for="password">Password</label>
+        <div class="inputs">
+          <div class="password-wrapper">
+           <label for="password">Password</label>
           <i class="fa fa-info-circle" aria-hidden="true"></i>
-          <input type="password" placeholder="" required />
         </div>
-        <div class="btn">
-          <button type="submit">Sign up</button>
+        <input type="password" />
+          </div>
+        <div class="btn-wrapper">
+          <button class="btn-signup">Sign up</button>
         </div>
-        <p class="para">
+        <p class="term-privacy">
           By signing up for Codecacademy, you agree to Codecacademy's
           <a href="/Terms services">Terms services</a>
           &
           <a href="/Privacy policy">Privacy policy</a>
         </p>
-        <p id="omo">Or sign up using:</p>
-        <div class="login-with">
-          <h2 class="boder">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          </h2>
-          <h2 class="boder">
-            <i class="fa fa-google" aria-hidden="true"></i>
-          </h2>
-          <h2 class="boder">
-            <i class="fa fa-facebook-official" aria-hidden="true"></i>
-          </h2>
-          <h2 class="boder"><i class="fa fa-github" aria-hidden="true"></i></h2>
+        <p class="or">Or sign up using:</p>
+        <div class="social-icon">
+          <ul class="list">
+            <li class="list-item">
+              <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </li>
+            <li class="list-item">
+              <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+            </li>
+            <li class="list-item">
+              <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+            </li>
+            <li class="list-item">
+              <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </li>
+          </ul>
         </div>
-        <p class="login">
+        <p class="account">
           Already have an account?
           <a href="/login">Login</a>
         </p>
-      </div>
-    </form>
+      </section>
+    </section>
   </body>
 </html>
